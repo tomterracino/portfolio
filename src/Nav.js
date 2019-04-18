@@ -20,6 +20,11 @@ class Main extends Component {
           this.setState ({ navClass: "sidenav" , shapeClass: "container" })
         }
       }
+
+      navHide=()=> { 
+           this.setState ({ navClass: "sidenav" , shapeClass: "container" })
+              }
+
   
       render(){
           return(
@@ -35,10 +40,10 @@ class Main extends Component {
                     </span>
                 <div id="mySidenav" className={this.state.navClass}>
                          <ul className="header">
-                            <li><Link to="/">Home</Link></li>
-                            <li><Link to="/Resume">Resume</Link></li>
-                            <li><Link to="/Projects">Projects</Link></li>
-                            <li><Link to="/About">About</Link></li>
+                            <li onClick={()=>this.navHide()}><Link to="/">Home</Link></li>
+                            <li onClick={()=>this.navHide()}><Link to="/Resume">Resume</Link></li>
+                            <li onClick={()=>this.navHide()}><Link to="/Projects">Projects</Link></li>
+                            <li onClick={()=>this.navHide()}><Link to="/About">About</Link></li>
                         </ul> 
                     </div>
                     <div className="content">

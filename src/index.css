@@ -72,6 +72,22 @@ li {
     
 }
 
+a:link {
+    text-decoration: none;
+    color: rgba(48, 141, 177, 0.87);
+  
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgba(48, 141, 177, 0.87);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgba(48, 141, 177, 0.87);
+}
+
 .jobheader {
     list-style:none;
     text-decoration: none;
@@ -96,6 +112,9 @@ u {
     background:rgba(10, 59, 78, 0.87); 
 }
 
+.video {
+    height:360px;
+}
 
 
 
@@ -188,7 +207,7 @@ u {
 /* ----- START -----  */
 
 .open {
-  width: 201px;
+  width: 180px;
 }
 .open ~ #main {
   margin-left: 250px;
@@ -198,14 +217,21 @@ u {
 
 /*Mobile Nav*/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-device-width: 480px) {
     .copybody {
         margin-top: 4%;
     }
 
     .title {
-        font-size: 22px;    
+        font-size: 18px;    
     }
+
+
+    p {
+        padding-left: 2%;
+    }
+
+   
 }
 
 

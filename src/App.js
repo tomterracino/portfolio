@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    BrowserRouter
+    HashRouter
   } from "react-router-dom";
   import Nav from "./Nav";
 
@@ -9,9 +9,9 @@ import {
   export default class App extends React.Component {
       render (){
         return (        
-        <BrowserRouter>
+        <HashRouter>
             <Nav/>
-        </BrowserRouter>
+        </HashRouter>
             )
       }
   }

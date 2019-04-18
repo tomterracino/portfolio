@@ -30,7 +30,7 @@ class About extends Component {
         <a href="https://www.instagram.com/bub_productions/?hl=en" target="_blank">
   <img width="55" height="55" border="0"   src="images/instalogo.png"/>
         </a>
-        <a className="ml-2" href="https://www.linkedin.com/in/tom-terracino-275228101n" target="_blank">
+        <a className="ml-2" href="https://www.linkedin.com/in/tom-terracino-275228101" target="_blank">
   <img width="55" height="55" border="0"   src="images/linked.png"/>
         </a>
       </div>
